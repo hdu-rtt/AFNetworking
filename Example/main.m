@@ -32,6 +32,7 @@
   #import <Cocoa/Cocoa.h>
 
   int main(int argc, char *argv[]) {
+      NSLog(@"This is my test!");
       return NSApplicationMain(argc, (const char **)argv);
   }
 #endif
